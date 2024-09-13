@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Taskform({ createTask }) {
+function Taskform({ createTask, deleteTask }) {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const handleSubmit = (e) => {
